@@ -1,10 +1,11 @@
 .Weatherbg{
 background-image: url(./assets/WeatherBg.jpg);
-width: 100vw;
+width: 100%;
 min-height: 100vh;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
+
 display: flex;
 justify-content: center;
 align-items: center;
