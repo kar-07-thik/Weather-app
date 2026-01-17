@@ -14,7 +14,7 @@ const Report = () => {
                 <p>{desc}</p>
             </div>
             {
-                Ecel ? <h1  className="font-bold text-4xl ">{cel}°c</h1> : <h1 className="font-medium text-4xl ">--°c</h1>
+                Ecel ? <h1  className="font-bold text-5xl text-[#AAADA5]">{cel}°c</h1> : <h1 className="font-medium text-5xl text-[#AAADA5] ">--°c</h1>
             }
 
             <img className="w-[50%] " src={Icon}></img>
